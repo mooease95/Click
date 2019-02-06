@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_Home"
+        android:orderInCategory="100"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_newSearch"
+        android:orderInCategory="100"
+        android:title="New Search"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_notifications"
+        android:orderInCategory="100"
+        android:title="Notificatios"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_menu_manage"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
